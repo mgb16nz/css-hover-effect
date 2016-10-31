@@ -1,0 +1,30 @@
+// Colors
+$base-text-color: #ff8000;
+$base-text-color-small: lighten($base-text-color, 30%);
+$gray-text-color: #555;
+$white-text-color: #fefefe;
+
+// Background Color
+$base-background-color: #2f3238;
+$hover-background: #ffa64d;
+
+
+
+// Font sixing and Headers
+$base-font:     14px;
+
+
+$base-font-h1:  ($base-font * 2.6) !default; // ~36px
+$base-font-h2:  ($base-font * 2.15) !default; // ~30px
+$base-font-h3:  ($base-font * 1.7) !default;; // ~24px
+$base-font-h4:  ($base-font * 1.25) !default; // ~18px
+$base-font-h5:  $base-font !default; // ~14px
+$base-font-h6:  ($base-font * .85) !default; // ~12px
+
+
+
+
+
+
+
+

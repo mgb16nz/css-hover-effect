@@ -1,47 +1,7 @@
-header, .header {
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 40px; }
-  header h1,
-  header h2,
-  header h3,
-  header h4,
-  header h5,
-  header h6, .header h1,
-  .header h2,
-  .header h3,
-  .header h4,
-  .header h5,
-  .header h6 {
-    text-align: center;
-    color: #ff8000; }
-  header h1, .header h1 {
-    font-size: 3em;
-    /* font em = 36px */ }
-  header h2, .header h2 {
-    font-size: 2.5em;
-    /* font em = 30px */ }
-  header h3, .header h3 {
-    font-size: 2em;
-    /* font em = 24px */ }
-  header h4, .header h4 {
-    font-size: 1.5em; }
-  header h5, .header h5 {
-    font-size: 1.167em;
-    /* font em = 14px */ }
-  header h6, .header h6 {
-    font-size: 1em;
-    /* font em = 12px */ }
-  header small, .header small {
-    color: #ffcc99;
-    font-size: 75%; }
-  header p, .header p {
-    color: #ff8000;
-    font-size: 1em; }
-
-/*
- * Hover Effect
+/**
+ * Created by Snap Web Designs on 22/06/16.
  */
+
 /* styling */
 figure {
   text-align: center;
@@ -63,8 +23,10 @@ figure {
       color: #fff; }
 
 /*
- *  Popping Effect
- */
+* Hover Effect
+*/
+
+/* Popup Effect */
 .effect_1 {
   position: relative;
   display: inline-block;
@@ -97,13 +59,10 @@ figure {
 .effect_1:hover::after {
   opacity: 1; }
 
-/*
- *  Overlay Effect
- */
+/* Overlay Effect */
 .effect_2 {
   position: relative;
   overflow: hidden;
-  margin-top: 30px;
   margin-bottom: 30px; }
 
 .effect_2:hover img {

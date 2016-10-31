@@ -1,13 +1,48 @@
 /**
- * Created by barkers on 22/06/16.
+ * Created by Snap Web Designs on 22/06/16.
  */
 @import "reset";
-@import "typography";
+@import "variables";
+
+body {
+  background-color: $base-background-color;
+}
 
 
 // indexpage
+header {
+  text-align: center;
+  padding-top: 60px;
+  //padding-bottom: 40px;
+  color: $base-text-color;
+
+  small {
+    color: lighten($base-text-color, 25%);
+  }
+
+  p {
+    color: $base-text-color;
+    font-size: $base-font;
+  }
+}
+
 .hoverEffects {
   margin-bottom: 1.5rem;
+}
+
+.header {
+  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: $base-text-color;
+
+  small {
+    color: lighten($base-text-color, 25%);
+  }
+}
+
+hr {
+  border: 1px solid lighten($base-text-color, 15%);
 }
 
 // aboutpage
@@ -15,7 +50,7 @@
 
   p {
     color: $white-text-color;
-    font-size: $base-font*1.167;
+    font-size: $base-font * 1.25;
   }
 
 }

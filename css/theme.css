@@ -1,5 +1,5 @@
 /**
- * Created by barkers on 22/06/16.
+ * Created by Snap Web Designs on 22/06/16.
  */
 html {
   font-size: 16px;
@@ -7,56 +7,37 @@ html {
 
 body {
   padding-top: 50px;
-  background-color: #2f3238;
-  font-size: 75%;
-  /* font em = 12px */ }
+  background-color: #2f3238; }
 
-header, .header {
+body {
+  background-color: #2f3238; }
+
+header {
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 40px; }
-  header h1,
-  header h2,
-  header h3,
-  header h4,
-  header h5,
-  header h6, .header h1,
-  .header h2,
-  .header h3,
-  .header h4,
-  .header h5,
-  .header h6 {
-    text-align: center;
-    color: #ff8000; }
-  header h1, .header h1 {
-    font-size: 3em;
-    /* font em = 36px */ }
-  header h2, .header h2 {
-    font-size: 2.5em;
-    /* font em = 30px */ }
-  header h3, .header h3 {
-    font-size: 2em;
-    /* font em = 24px */ }
-  header h4, .header h4 {
-    font-size: 1.5em; }
-  header h5, .header h5 {
-    font-size: 1.167em;
-    /* font em = 14px */ }
-  header h6, .header h6 {
-    font-size: 1em;
-    /* font em = 12px */ }
-  header small, .header small {
-    color: #ffcc99;
-    font-size: 75%; }
-  header p, .header p {
+  color: #ff8000; }
+  header small {
+    color: #ffc080; }
+  header p {
     color: #ff8000;
-    font-size: 1em; }
+    font-size: 14px; }
 
 .hoverEffects {
   margin-bottom: 1.5rem; }
 
+.header {
+  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: #ff8000; }
+  .header small {
+    color: #ffc080; }
+
+hr {
+  border: 1px solid #ffa64d; }
+
 .about-content p {
   color: #fefefe;
-  font-size: 1.167em; }
+  font-size: 17.5px; }
 
 /*# sourceMappingURL=theme.css.map */

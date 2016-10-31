@@ -1,9 +1,10 @@
+/**
+ * Created by Snap Web Designs on 22/06/16.
+ */
+
 $hover-background: #ffa64d;
 
-@import "typography";
-/*
- * Hover Effect
- */
+@import "variables";
 
 /* styling */
 figure {
@@ -36,10 +37,11 @@ figure {
   }
 }
 
-
 /*
- *  Popping Effect
- */
+* Hover Effect
+*/
+
+/* Popup Effect */
 .effect_1 {
   position: relative;
   display: inline-block;
@@ -77,13 +79,11 @@ figure {
   opacity: 1;
 }
 
-/*
- *  Overlay Effect
- */
+/* Overlay Effect */
 .effect_2 {
   position: relative;
   overflow: hidden;
-  margin-top: 30px;
+  // margin-top: 30px;
   margin-bottom: 30px;
 }
 .effect_2:hover img {
