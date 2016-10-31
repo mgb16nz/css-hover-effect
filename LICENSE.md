@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2016 Mark Barker (Snap Web Designs - http://www.snapwebdesigns.co.nz/)
+Copyright (c) 2016 Mark Barker (Snap Web Designs - http://www.snapwebdesigns.co.nz)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
